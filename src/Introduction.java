@@ -13,6 +13,11 @@ public static void intro() throws IOException {
 	Scanner file=new Scanner(new File("Currency.txt"));
 	int times=file.nextInt();
 	int change= price-given;
+	int [] nums= new int [8];
+	for (int i=0; i <nums.length;i++)
+	{
+		nums[i]=file.next();
+	}
 	
 	
 	//often
